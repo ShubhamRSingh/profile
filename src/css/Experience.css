@@ -1,0 +1,5 @@
+.ExperienceWrap{display: flex;flex-direction: column;}
+.companyDetails{margin-bottom: 30px;}
+.companyName{display: flex;align-items: center;}
+.companyDetails a{margin: 0 0 10px;display: block;}
+.ExperienceWrap h2{margin-bottom: 50px;color: #00AB44;}

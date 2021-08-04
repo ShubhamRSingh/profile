@@ -1,0 +1,6 @@
+.projectSubWrap{display: flex;justify-content: space-between;flex-wrap: wrap;}
+.prjctWrap{margin-bottom: 40px;flex-basis: calc(33.33% - 20px);max-width: calc(33.33% - 20px);margin-left: 10px;margin-right: 10px;}
+.projectSubWrap a{margin: 10px 0 0;display: block;font-weight: 500;}
+.ProjectsWrap h2{margin-bottom: 50px;text-transform: uppercase;color: #00AB44;}
+.prjctWrap h3{color: #00AB44;}
+.prjctWrap h3 span{color: #000;font-size: 16px;}

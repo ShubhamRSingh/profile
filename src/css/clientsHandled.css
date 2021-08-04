@@ -1,0 +1,2 @@
+.clientWrap{display: flex;flex-wrap: wrap;}
+.clientWrap p{margin-bottom: 30px;flex-basis: calc(25% - 20px);max-width: calc(25% - 20px);margin-left: 10px;margin-right: 10px;font-weight: 500;}
