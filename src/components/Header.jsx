@@ -16,11 +16,11 @@ const Header = () => {
     }
 
     const menuLinkClickHandler = (e) => {
-        //debugger;
-        console.log();
+        // debugger;
+        // console.log();
         let targetHeader =  e.currentTarget.offsetParent;
         targetHeader.classList.toggle('headerOpen');
-        let openMenu = document.querySelector('.headerOpen ul');
+        let openMenu = document.querySelector('.HeaderWrap ul');
         openMenu.nextElementSibling.classList.toggle('open');
     }
 
