@@ -4,3 +4,9 @@
 .ProjectsWrap h2{margin-bottom: 50px;text-transform: uppercase;color: #00AB44;}
 .prjctWrap h3{color: #00AB44;}
 .prjctWrap h3 span{color: #000;font-size: 16px;}
+
+
+
+@media only screen and (max-width:576px){
+    .prjctWrap{flex-basis: calc(100% - 20px);max-width: calc(100% - 20px);margin-left: 0;}
+}

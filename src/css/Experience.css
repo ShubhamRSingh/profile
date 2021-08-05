@@ -3,3 +3,13 @@
 .companyName{display: flex;align-items: center;}
 .companyDetails a{margin: 0 0 10px;display: block;}
 .ExperienceWrap h2{margin-bottom: 50px;color: #00AB44;}
+
+@media only screen and (max-width:576px){
+    .companyName{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .companyName h3:first-child{font-size: 24px;}
+    .companyName h3{font-size: 16px;}
+    .companyName p{margin-left: -4px;}
+}

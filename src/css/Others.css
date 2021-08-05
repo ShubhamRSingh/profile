@@ -1,0 +1,16 @@
+.OthersWrap h2 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #00ab44;
+}
+.OthersWrap .certificationsWrap {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.OthersWrap .coCurrWrap ul {
+    padding-left: 15px;
+}
+.OthersWrap .coCurrWrap li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
