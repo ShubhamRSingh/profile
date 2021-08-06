@@ -9,6 +9,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Footer from "./components/Footer";
 
 const companyDetails = [
   {
@@ -58,6 +59,7 @@ function App() {
           <Route path="/others" component={Others} />
         </Switch>
       </Router>
+      <Footer></Footer>
     </div>
   );
 }
