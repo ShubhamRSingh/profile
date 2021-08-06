@@ -1,5 +1,6 @@
 //import {companyDetails} from './Service';
 import '../css/Experience.css';
+import Footer from './Footer';
 
 const Experience = (props) => {
     const companyKadata = props.compnyDetails;
@@ -21,6 +22,7 @@ const Experience = (props) => {
                     )
                 })
             }
+            <Footer />
         </div>
     )
 }

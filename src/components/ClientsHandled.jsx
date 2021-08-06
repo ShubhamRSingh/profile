@@ -1,5 +1,6 @@
 import { clientHandled } from "./Service";
 import '../css/clientsHandled.css';
+import Footer from "./Footer";
 
 const ClientsHandled = () => {
     return(
@@ -13,6 +14,7 @@ const ClientsHandled = () => {
                     })
                 }
             </div>
+            <Footer />
         </div>
     )
 }

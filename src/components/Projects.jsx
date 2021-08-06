@@ -1,5 +1,6 @@
 import { projectDetails } from "./Service";
 import '../css/Projects.css'
+import Footer from "./Footer";
 
 const Projects = () => {
     return(
@@ -18,6 +19,7 @@ const Projects = () => {
                         })
                     }
                 </div>
+            <Footer />
         </div>
     )
 }

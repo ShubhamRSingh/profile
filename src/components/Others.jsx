@@ -1,4 +1,5 @@
 import '../css/Others.css'
+import Footer from './Footer';
 
 const Others = () => {
     return(
@@ -20,6 +21,7 @@ const Others = () => {
                     <li>Student Member of Computer Society of India (CSI) Mumbai Chapter in year 2010-2011.</li>
                 </ul>
             </div>
+            <Footer />
         </div>
     )
 }

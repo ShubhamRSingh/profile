@@ -1,5 +1,6 @@
 import { about, basicDetails } from "./Service";
 import '../css/Home.css';
+import Footer from "./Footer";
 
 const Home = () => {
     return(
@@ -23,6 +24,7 @@ const Home = () => {
                 }
                 </ul>
             </div>
+            <Footer />
         </div>
     )
 }

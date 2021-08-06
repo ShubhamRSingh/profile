@@ -1,6 +1,5 @@
 .whatsappsWrap{margin-top: 30px;
-    padding-left: 15px;
-    padding-right: 15px;display: inline-flex;flex-direction: column;
+    display: inline-flex;flex-direction: column;
 }
 
 .whatsappsWrap h2{
